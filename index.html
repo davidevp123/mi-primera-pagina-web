@@ -1,34 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Primera Página Web</title>
-  <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal de David Vanegas</title>
+  <style>
+    /* Estilos CSS pueden ir aquí */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      
+    }
+    header img {
+    width: 200px;
+    height: auto;
+
+    }
+
+    
+    nav {
+      background-color: #444;
+      padding: 10px 0;
+      text-align: center;
+      
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Bienvenido a mi Página Web</h1>
-  </header>
+    <img src="https://cdn.pixabay.com/photo/2017/12/02/16/19/mechanical-engineering-2993233_1280.jpg" alt="">
+    <h1>David Vanegas</h1>
+    <p>Especialista en Mantenimiento Electrónico e Industrial</p>
+</header>
+
+
   <nav>
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#acerca-de">Acerca de</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
+    <a href="#about">Sobre mí</a>
+    <a href="#experience">Experiencia</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
   </nav>
-  <section id="inicio">
-    <h2>¡Hola Mundo!</h2>
-    <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
-  </section>
-  <section id="acerca-de">
-    <h2>Acerca de Mí</h2>
-    <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
-  </section>
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
-  </section>
-  <footer>
-    <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
-  </footer>
+
+  <main>
+
+    <section id="about">
+      <h2>Sobre Mí</h2>
+      <p>Especialista en mantenimiento electrónico e industrial con una pasión por la innovación y la eficiencia en los procesos industriales.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experiencia</h2>
+      <p>Con más de 5 años de experiencia en el mantenimiento de equipos electrónicos e instrumentos industriales, he liderado proyectos que han optimizado la producción y mejorado la calidad.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li>Implementación de un sistema de monitorización remota para equipos industriales.</li>
+        <li>Optimización de los procesos de calibración de instrumentos, reduciendo los tiempos de inactividad.</li>
+        <li>Desarrollo de un plan de mantenimiento predictivo que ha aumentado la vida útil de los equipos.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme en:</p>
+      <ul>
+        <li>Email: davidvanegas@example.com</li>
+        <li>Teléfono: (123) 456-7890</li>
+      </ul>
+    </section>
+
+  </main>
+
 </body>
 </html>
